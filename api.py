@@ -12,7 +12,7 @@ def dict_factory(cursor, row):
     return d
 
 
-@app.route('/', methods=['GET'])
+@app.route('/')
 def home():
     return '''<h1>Distant Reading Archive</h1>
 <p>A prototype API for distant reading of science fiction novels.</p>'''
